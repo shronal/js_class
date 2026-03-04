@@ -25,3 +25,13 @@ a = a - 3 ; // this is valid
 c = c * 2; // this is valid
 var c = 50; // this is valid
 console.log(a, b, c);
+
+
+// if const is an object then, we can change the key value 
+const person1 = {
+    name: "Shronal Duwal",
+    age: 21,
+    city: "Kathmandu"
+};
+
+person1.age = person1.age + 1; // this is valid
